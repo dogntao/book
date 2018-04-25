@@ -41,3 +41,15 @@ function test3(int $n)
 }
 echo test3(2)."\r\n";
 echo "......\r\n";
+
+// 查找出现位置
+function FunctionName()
+{
+    $arr = [1,3,5,7,9];
+    $search = 7;
+    // 取中间数
+    $len = floor(count($arr)/2);
+    $mid = 0;
+    
+    
+}

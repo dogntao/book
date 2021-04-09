@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"time"
 )
 
 func solution(nums []int) int {
@@ -40,7 +41,9 @@ func search(searchArr []int, search int) (ret int) {
 }
 
 func main() {
-	fmt.Println(search([]int{5, 6, 7, 8, 9, 10}, 8))
+	expireYear := time.Now().Year() + 3
+	expireTimeUnix := time.Date(expireYear, 1, 1, 0, 0, 0, 0, time.Local).Unix()
+	fmt.Println(expireYear, expireTimeUnix-1)
 	// r := bufio.NewReaderSize(os.Stdin, 20480)
 	// for line, _, err := r.ReadLine(); err == nil; line, _, err = r.ReadLine() {
 	// 	fmt.Println(solution(string(line)))

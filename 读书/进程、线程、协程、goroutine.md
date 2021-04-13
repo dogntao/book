@@ -4,3 +4,5 @@
 
 #### mpg
 > https://golang.design/under-the-hood/zh-cn/part2runtime/ch06sched/mpg/
+> https://golang.design/under-the-hood/zh-cn/part2runtime/ch06sched/mpg/#631-
+> https://golang.design/under-the-hood/zh-cn/part2runtime/ch06sched/schedule/#641-
